@@ -1,0 +1,93 @@
+.navbar-custom {
+  background-color: white;
+  padding-bottom: 4px;
+}
+.navbar-custom .navbar-brand {
+  color: black;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: green;
+}
+.navbar-custom .navbar-text {
+  color: black;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: black;
+  border-bottom: solid white;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: green;
+  border-bottom: solid green;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu {
+  background-color: white;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a {
+  color: black;
+  border-left: solid 2px white;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: green;
+  border-left: solid 2px green;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > .active > a,
+.navbar-custom .navbar-nav > li > .dropdown-menu > .active > :hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > .active > a:focus {
+  color: green;
+  background-color: transparent;
+  font-weight: bold;
+  border-left: solid 2px green;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu .divider {
+  background-color: green;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: green;
+  border-bottom: solid green;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: green;
+  border-bottom: solid green;
+}
+.navbar-custom .navbar-toggle {
+  border-color: green;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  border-bottom: solid green;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: black;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: black;
+}
+.navbar-custom .navbar-link {
+  color: black;
+}
+.navbar-custom .navbar-link:hover {
+  color: green;
+}
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: black;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: green;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: green;
+    background-color: green;
+  }
+}
